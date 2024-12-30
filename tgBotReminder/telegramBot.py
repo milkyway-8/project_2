@@ -172,5 +172,4 @@ class TelegramBot:
                 if birthday.month == today.month and birthday.day == today.day:
                     self.my_bot.send_message(chat_id=value[1], text=f"🎉 Сегодня день рождения у {key}! 🎂")
             except:
-
                 print(f"Ошибка отправки напоминания для {key}")
